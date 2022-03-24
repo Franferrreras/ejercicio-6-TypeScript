@@ -9,7 +9,7 @@
 class Person {
   private name: string;
   private age: number;
-  //public saySomething:(cadena: string) => void;
+  //public saySomething:(cadena: string) => void;  -- Sale error de que no es una funcion
   public saySomething(cadena: string) {
     return;
   }
@@ -26,7 +26,7 @@ class Person {
 }
 
 class Developer extends Person {
-  //public bestLanguage:(cadena: string) => void;
+  //public bestLanguage:(cadena: string) => void;  -- Sale error de que no es una funcion
   public bestLanguage(cadena: string) {
     return;
   }
